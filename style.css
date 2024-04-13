@@ -1,0 +1,599 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    width: 100%;
+    float: left;
+    background-image: url(images/home_slider.jpg.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:900px;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.row .logo{
+    font-size: 30px;
+}
+
+.row .menus{
+    margin-left: 170px;
+}
+
+.m-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .menus ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row .contact_no{
+    margin-left: 60px;
+}
+
+header .container .row a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header .container .row .menus  a{
+    font-size: 17px;
+}
+
+header .container .row li{
+    list-style: none;
+}
+
+header .container .row .menus li{
+    list-style: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.wrapper h2{
+    line-height: 1.1;
+    font-size: 100px;
+    letter-spacing: -7px;
+}
+
+.form{
+    width: 100%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.295);
+    height: 300px;
+    color: black;
+    border-radius: 20px;
+}
+
+.nav-form{
+    text-align: center;
+    padding: 40px;
+}
+
+.nav-form aside{
+    padding:15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-heading{
+    width: 30%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form-input{
+    width: 100%;
+    float: left;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-input input{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    font-size: 17px;
+    border: none;
+}
+
+.form-input button{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#second{
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+#second .intro-background{
+    background-image: url(images/background.webp);
+    height:500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    top: -100px;
+}
+
+#second .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    width: 100%;
+    border-bottom: solid 3px grey;
+    color: grey;
+}
+
+#second .intro img{
+    width: 80px;
+}
+
+#second .intro_flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 60px;
+}
+
+#second .intro_flex .icon{
+    padding-right: 20px;
+}
+
+#second .intro_flex .title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(34, 32, 32);
+}
+
+#second .intro_flex .subtitle{
+    font-size: 20px;
+}
+
+#third, #fourth{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p_d{
+    padding: 15px;
+}
+
+.p_d h2{
+    font-size: 50px;
+}
+
+#third .destination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third .destination img{
+    width: 400px;
+    padding: 5px;
+}
+
+#fourth .info {
+    font-size: 30px;
+    text-align: center;
+}
+
+#fourth{
+    background-image: url(images/testimonials.jpg.webp);
+    color: white;
+    background-position-y: 10%;
+    height: 100%;
+}
+
+.col-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.left-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-col img{
+    width: 300px;
+}
+
+.right-col img{
+    width: 420px;
+    margin-top: 15px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wrap{
+    padding-bottom: 100px;
+}
+
+.news_post{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+.mid{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.mid a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.mid span{
+    color: grey;
+    font-size: 11px;
+}
+
+.mid p{
+    font-size: 15px;
+}
+
+#sixth{
+    background-image: url(images/footer_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.wrap-sixth{
+    padding:100px 0 100px 0;
+}
+
+.wrap-sixth .h_1{
+    text-align: center;
+}
+
+.wrap-sixth .h_1 p b{
+    font-size: 35px;
+}
+
+.wrap-sixth .h_1 p{
+    font-size: 20px;
+    color: rgb(207, 205, 205);
+}
+
+.form-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.form-sixth{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 150px);
+    height: 50px;
+}
+
+.form-flex div{
+    height: 50px;
+}
+
+.form-flex input , button{
+    height: 95%;
+    width: 100%;
+    background-color:rgb(238, 230, 230);
+    opacity: 70%;
+}
+
+.form-flex button{
+    border-radius: 20px;
+}
+
+.form-flex button{
+    width: 161px;
+    margin-left: 30px;
+}
+
+.content-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.content-row .flex-contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.content-row .flex-contact img{
+    width: 50px;
+}
+
+.content-row .flex-contact li{
+    list-style: none;
+}
+
+/* css for about_us*/
+
+#about .form{
+    margin-top: 250px;
+}
+
+#third .words{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#third .words_left{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+#third .words_left b{
+    font-size: 30px;
+}
+
+#third .words_left p{
+    font-size: 25px;
+}
+
+#third .words_right img{
+    width: 500px;
+}
+
+#third .words_left .read_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#third .words_left .read_btn button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+/* css for news*/
+
+#news .form{
+    margin-top: 250px;
+}
+
+#news .news-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#news .news-content .news_left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#news .news-content .news_left img{
+    width: 750px;
+}
+
+#news .news-content .news_left .col{
+    display: flex;
+    flex-direction: column;
+}
+
+#news .news-content .news_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#news .news-content .news_right .news_scroller .latest{
+    padding-top:20px;
+}
+
+.flex-categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left:20px;
+    color: grey;
+}
+
+.flex-categories span{
+    margin-left: 150px;
+}
+
+#news .news-content .news_right .news_scroller{
+    margin-left: 20px;
+}
+
+#news .news-content .news_right img{
+    width: 200px;
+}
+
+#news .news-content .news_right .news_left{
+    font-size: 10px;
+}
+
+#news .news-content .news_right .news_scroller .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#news .news-content .news_right .mid a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#news .news-content .news_right .mid p{
+    font-size: 10px;
+}
+
+#news .news-content .news_right .words_right{
+    text-align: center;
+}
+
+#news .news-content .news_right .words_right .discount{
+    position: relative;
+    top: -100px;
+    color: white;
+}
+
+#news .news-content .news_right .words_right .discount span{
+    font-size: 25px;
+}
+
+#news .news-content .news_right .words_right .discount aside{
+    font-size: 20px;
+}
+/* css for contact*/
+
+#contact button{
+    opacity:1;
+}
+
+#contact .form{
+    margin-top: 250px;
+}
+
+.w .words_right form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact .words_right form input,textarea{
+    width: 440px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    font-size: 13px;
+    border: none;
+}
+
+.words_right form .form-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contact .words_right form textarea{
+    height:200px
+}
+
+#contact .words_left p{
+    font-size:15px;
+    color: gray;
+}
+
+#contact .contact_btn{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#contact .contact_btn button{
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#contact .form-flex button{
+    width: 161px;
+    margin-left: 30px;
+    opacity: .7;
+}
